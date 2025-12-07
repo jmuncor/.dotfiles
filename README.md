@@ -40,12 +40,11 @@ git clone https://github.com/jmuncor/.dotfiles.git ~/.dotfiles
 ```
 
 ---
-## Step 3: System linking the config files
+## Step 3: System linking the Ghostty and Tmux config files
 
 Link the default config files to the dotfiles folder
 
 ```bash
-
 # 1. Ghostty
 mkdir -p ~/.config/ghostty
 rm ~/.config/ghostty/config
@@ -56,8 +55,12 @@ mkdir -p ~/.config/tmux
 rm ~/.tmux.conf
 rm ~/.config/tmux/tmux.conf
 ln -s ~/.dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
+```
 
-# 3. Zsh
+---
+## Step 4: Source the config.zsh in the .zshrc file
 
-
+```bash
+echo 'source ~/.dotfiles/zsh/config.zsh' >> ~/.zshrc
+source ~/.zshrc
 ```
