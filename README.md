@@ -4,7 +4,7 @@ My personal configuration files for macOS, featuring a high-performance setup wi
 
 The visual style is unified around the **Tokyo Night** theme. This repository also addresses the "Green Bar" issue on macOS where Tmux themes fail to load due to outdated system Bash versions.
 
-## Initial setup
+## Step 1: Initial setup
 
 * **1. Install [Homebrew](https://brew.sh/)**
   ```bash
@@ -29,7 +29,7 @@ The visual style is unified around the **Tokyo Night** theme. This repository al
 
 ---
 
-## Step 1: Fix the theme crashing
+## Step 2: Fix the theme crashing
 
 macOS ships with **Bash v3.2** (from 2007) by default. The `tmux-tokyo-night` plugin requires **Bash 4.0+**. Without this fix, the theme crashes.
 
@@ -42,3 +42,9 @@ echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
 
 # 3. Reload settings
 source ~/.zshrc
+
+---
+
+## Step 3: Link the config files to the dotfiles
+
+
