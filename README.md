@@ -32,7 +32,7 @@ The visual style is unified around the **Tokyo Night** theme. This repository al
   rm -rf ~/.config/nvim/.git
 
 ---
-## Step 2: System linking the config files
+## Step 2: Get the config files
 
 Clone the repository:
 ```bash
