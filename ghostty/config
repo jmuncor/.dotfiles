@@ -16,8 +16,8 @@ macos-option-as-alt = true
 
 # --- LAYOUT ---
 # Remove the empty gap around Neovim so it fills the screen
-window-padding-x = 0
-window-padding-y = 0
+window-padding-x = 10
+window-padding-y = 10
 
 # --- FONT ---
 # ensure you have a Nerd Font installed (e.g. JetBrainsMono, Hack, etc.)
