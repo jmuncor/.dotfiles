@@ -31,7 +31,7 @@ The visual style is unified around the **Tokyo Night** theme. This repository al
 
 ## Step 2: Fix the theme crashing
 
-macOS ships with **Bash v3.2** (from 2007) by default. The `tmux-tokyo-night` plugin requires **Bash 4.0+**. Without this fix, the theme crashes.
+MacOS ships with **Bash v3.2** (from 2007) by default. The `tmux-tokyo-night` plugin requires **Bash 4.0+**. Without this fix, the theme crashes.
 
 ```bash
 # 1. Install modern Bash
@@ -42,9 +42,25 @@ echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
 
 # 3. Reload settings
 source ~/.zshrc
+```
 
 ---
 
-## Step 3: Link the config files to the dotfiles
+## Step 3: System linking the config files
 
+Link the default config files to the dotfiles folder
 
+```bash
+
+# 1. Ghostty
+mkdir -p ~/.config/ghostty
+rm ~/.config/ghostty/config
+ln -s ~/.dotfiles/ghostty/config ~/.config/ghostty/config
+
+# 1. Tmux
+mkdir -p ~/.config/tmux
+rm ~/.tmux.conf
+rm ~/.config/tmux/tmux.conf
+ln -s ~/.dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
+
+```
