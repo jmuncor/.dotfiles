@@ -14,9 +14,11 @@ The visual style is unified around the **Tokyo Night** theme. This repository al
   ```bash
   brew install --cask ghostty
 
-* **3. Install Tmux**
+* **3. Install [Tmux](https://github.com/tmux/tmux/wiki)x**
   ```bash
   brew install tmux
+
+* **4. Install LazyVim**
   
 * **Ghostty:** [Download Ghostty](https://mitchellh.com/ghostty)
 
