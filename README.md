@@ -33,7 +33,6 @@ The visual style is unified around the **Tokyo Night** theme. This repository al
 
 macOS ships with **Bash v3.2** (from 2007) by default. The `tmux-tokyo-night` plugin requires **Bash 4.0+**. Without this fix, the theme crashes.
 
-***
 ```bash
 # 1. Install modern Bash
 brew install bash
