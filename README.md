@@ -10,23 +10,15 @@ The visual style is unified around the **Tokyo Night** theme. This repository al
   ```bash
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-* **1. Install modern Bash**
-  ```bash
-  brew install bash
-  
 * **2. Install [Ghostty](https://ghostty.org/)**
   ```bash
   brew install --cask ghostty
 
-* **3. Install [Tmux](https://github.com/tmux/tmux/wiki)**
+* **3. Install modern Bash, Nvim, Tmux and Zsh goddies to make it look nicer**
   ```bash
-  brew install tmux
+  brew install bash tmux neovim starship eza zsh-autosuggestions zsh-syntax-highlighting
 
-* **4. Install [Neovim](https://neovim.io/)**
-  ```bash
-  brew install neovim
-
-* **5. Install [LazyVim](https://www.lazyvim.org/)**
+* **4. Install [LazyVim](https://www.lazyvim.org/)**
   ```bash
   git clone https://github.com/LazyVim/starter ~/.config/nvim
   rm -rf ~/.config/nvim/.git
@@ -63,6 +55,11 @@ source ~/.zshrc
 ```
 
 ## Step 5: Enable LazyVim extras
+
+The config for LazyVim is pretty much the default one, just add some extras to add AI capabilities and goodies.
+Type `:LazyExtras`, navigate to the plugin you want, and press <kbd>x</kbd> to enable it.
+
+## Step 6: Setup Zsh to behave and look decent
 
 The config for LazyVim is pretty much the default one, just add some extras to add AI capabilities and goodies.
 Type `:LazyExtras`, navigate to the plugin you want, and press <kbd>x</kbd> to enable it.
