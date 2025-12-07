@@ -10,9 +10,9 @@ The visual style is unified around the **Tokyo Night** theme. This repository al
   ```bash
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-* **1. Install modern Bash, [Ghostty](https://ghostty.org/), [Tmux](https://github.com/tmux/tmux/wiki), [Neovim](https://neovim.io/)**
+* **1. Install modern Bash, Nvim, Tmux and Zsh goddies to make it look nicer**
   ```bash
-  brew install bash tmux neovim
+  brew install bash tmux neovim starship eza zsh-autosuggestions zsh-syntax-highlighting
   
 * **2. Install [Ghostty](https://ghostty.org/)**
   ```bash
