@@ -26,6 +26,11 @@ The visual style is unified around the **Tokyo Night** theme. This repository al
   git clone https://github.com/LazyVim/starter ~/.config/nvim
   rm -rf ~/.config/nvim/.git
   ```
+* **e. Install [Tmux Plugin Manager (TPM)](https://github.com/tmux-plugins/tpm)**
+  ```bash
+  git clone https://github.com/LazyVim/starter ~/.config/nvim
+  rm -rf ~/.config/nvim/.git
+  ```
 
 ## Step 2: Get the config files
 
