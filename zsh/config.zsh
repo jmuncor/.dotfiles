@@ -55,5 +55,5 @@ fi
 # 2. We are NOT already inside a Tmux session (TMUX)
 if [[ "$TERM_PROGRAM" == "ghostty" ]] && [[ -z "$TMUX" ]]; then
     # Try to attach to a session named "main", or create it if missing
-    tmux attach-session -t main || tmux new-session -s main
+    tmux attach-session -t juancho || tmux new-session -s juancho
 fi
