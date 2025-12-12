@@ -57,7 +57,7 @@ rm ~/.tmux.conf
 rm ~/.config/tmux/tmux.conf
 ln -s ~/.dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
 
-# Nvim
+# 3.Nvim
 mv ~/.config/nvim ~/dotfiles/nvim
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ```
