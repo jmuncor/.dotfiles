@@ -1,6 +1,6 @@
 # --- THEME & COLORS ---
-# Use the TokyoNight theme to match LazyVim
-theme = tokyonight
+# Use the Catppuccin theme to match LazyVim
+theme = catppuccin-mocha
 
 # HARDCODED: Forces Ghostty to match LazyVim's exact "Storm" background color
 # This fixes the slight color mismatch between the terminal and editor
