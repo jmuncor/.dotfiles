@@ -1,10 +1,6 @@
 # --- THEME & COLORS ---
-# Use the Catppuccin theme to match LazyVim
+# Catppuccin Mocha theme (the port handles all colors automatically)
 theme = catppuccin-mocha
-
-# HARDCODED: Forces Ghostty to match LazyVim's exact "Storm" background color
-# This fixes the slight color mismatch between the terminal and editor
-background = #24283b
 
 # --- MACOS INTEGRATION ---
 # Hide the top title bar for a cleaner look
