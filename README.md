@@ -50,8 +50,15 @@ ln -s ~/.dotfiles/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 
 ## Step 3: Configure Zsh
 
+Add this line to your `~/.zshrc`:
+
 ```bash
-echo 'source ~/.dotfiles/zsh/config.zsh' >> ~/.zshrc
+source ~/.dotfiles/zsh/config.zsh
+```
+
+Then reload:
+
+```bash
 source ~/.zshrc
 ```
 
@@ -81,7 +88,8 @@ Run `:checkhealth` to verify the setup.
 | catppuccin | Colorscheme (mocha) |
 | nvim-treesitter | Syntax highlighting |
 | telescope.nvim | Fuzzy finder |
-| neo-tree.nvim | File explorer sidebar |
+| snacks.nvim | File explorer sidebar |
+| markdown-preview.nvim | Live markdown preview in browser |
 | nvim-lspconfig | LSP configuration |
 | mason.nvim | LSP installer |
 | blink.cmp | Autocomplete |
@@ -108,17 +116,7 @@ Run `:checkhealth` to verify the setup.
 | `<leader>rn` | Rename symbol |
 | `<leader>ca` | Code action |
 | `<leader>w` | Save file |
-
-### Neo-tree (File Explorer)
-
-| Key | Action |
-|-----|--------|
-| `l` | Open file / Expand folder |
-| `h` | Collapse folder |
-| `a` | Add file |
-| `d` | Delete |
-| `r` | Rename |
-| `H` | Toggle hidden files |
+| `<leader>mp` | Toggle markdown preview |
 
 ## Tmux Keybindings
 

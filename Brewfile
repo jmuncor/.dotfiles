@@ -14,6 +14,7 @@ brew "tmux"
 
 # Editor
 brew "neovim"
+brew "node"
 
 # Formatters (for Neovim)
 brew "black"
