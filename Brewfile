@@ -29,6 +29,7 @@ cask "1password"
 cask "alt-tab"
 cask "google-chrome"
 cask "logitech-g-hub"
+cask "obsidian"
 
 # Creative & Media
 cask "inkscape"
