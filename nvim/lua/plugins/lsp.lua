@@ -11,7 +11,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     dependencies = { "williamboman/mason.nvim" },
     opts = {
-      ensure_installed = { "pyright", "ts_ls" },
+      ensure_installed = { "pyright", "ts_ls", "html", "cssls", "tailwindcss" },
       automatic_installation = true,
     },
   },
@@ -36,8 +36,20 @@ return {
         capabilities = capabilities,
       })
 
+      vim.lsp.config("html", {
+        capabilities = capabilities,
+      })
+
+      vim.lsp.config("cssls", {
+        capabilities = capabilities,
+      })
+
+      vim.lsp.config("tailwindcss", {
+        capabilities = capabilities,
+      })
+
       -- Enable the servers
-      vim.lsp.enable({ "pyright", "ts_ls" })
+      vim.lsp.enable({ "pyright", "ts_ls", "html", "cssls", "tailwindcss" })
 
       -- Keymaps on LspAttach
       vim.api.nvim_create_autocmd("LspAttach", {
