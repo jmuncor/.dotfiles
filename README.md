@@ -81,6 +81,15 @@ Open Neovim (`nvim`). It will automatically:
 
 Run `:checkhealth` to verify the setup.
 
+## CLI Tools (via Homebrew)
+
+| Tool | Purpose |
+|------|---------|
+| eza | Modern ls replacement |
+| yazi | Terminal file manager |
+| starship | Cross-shell prompt |
+| resvg | SVG rendering tool |
+
 ## Neovim Plugins
 
 | Plugin | Purpose |

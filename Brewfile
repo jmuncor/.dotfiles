@@ -6,6 +6,7 @@ brew "bash"
 brew "zsh"
 brew "starship"
 brew "eza"
+brew "yazi"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
@@ -19,6 +20,7 @@ brew "node"
 # Formatters (for Neovim)
 brew "black"
 brew "prettier"
+brew "resvg"
 
 # GUI Applications
 cask "ghostty"
