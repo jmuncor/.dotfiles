@@ -46,6 +46,15 @@ ln -s ~/.dotfiles/nvim ~/.config/nvim
 mkdir -p ~/.config/karabiner
 rm -f ~/.config/karabiner/karabiner.json
 ln -s ~/.dotfiles/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
+
+# 5. Yazi
+mkdir -p ~/.config/yazi
+rm -f ~/.config/yazi/theme.toml
+ln -s ~/.dotfiles/yazi/theme.toml ~/.config/yazi/theme.toml
+
+# 6. Starship
+rm -f ~/.config/starship.toml
+ln -s ~/.dotfiles/zsh/starship.toml ~/.config/starship.toml
 ```
 
 ## Step 3: Configure Zsh
@@ -94,7 +103,7 @@ Run `:checkhealth` to verify the setup.
 
 | Plugin | Purpose |
 |--------|---------|
-| catppuccin | Colorscheme (mocha) |
+| catppuccin | Colorscheme (frappe) |
 | nvim-treesitter | Syntax highlighting |
 | telescope.nvim | Fuzzy finder |
 | snacks.nvim | File explorer sidebar |

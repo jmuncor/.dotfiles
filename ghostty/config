@@ -1,6 +1,6 @@
 # --- THEME & COLORS ---
 # Catppuccin Mocha theme (the port handles all colors automatically)
-theme = Catppuccin Mocha
+theme = Catppuccin Frappe
 
 # --- MACOS INTEGRATION ---
 # Hide the top title bar for a cleaner look
