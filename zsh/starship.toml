@@ -3,21 +3,12 @@ palette = "catppuccin_frappe"
 
 # Define visual Layout
 format = """
-$custom\
 $directory\
 $git_branch\
 $git_metrics\
 $fill\
 $line_break\
 $character"""
-
-# Create the "Top Elbow" (The start of the frame)
-[custom.start_frame]
-command = "echo '╭─'"
-when = "true"
-shell = ["bash", "--noprofile", "--norc"]
-style = "bold overlay0"
-format = "[$output]($style)"
 
 # Configure the Fill Line to match
 [fill]
@@ -26,8 +17,8 @@ style = "bold overlay0"
 
 # Configure the Character (The Arrow)
 [character]
-success_symbol = "[╰─❯](bold lavender)"
-error_symbol = "[╰─❯](bold red)"
+success_symbol = "[❯](bold lavender)"
+error_symbol = "[❯](bold lavender)"
 
 # Catppuccin Frappé palette definition
 [palettes.catppuccin_frappe]
