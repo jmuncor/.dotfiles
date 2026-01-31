@@ -1,6 +1,3 @@
-# Taps
-tap "homebrew/bundle"
-
 # Terminal & Shell
 brew "bash"
 brew "zsh"
