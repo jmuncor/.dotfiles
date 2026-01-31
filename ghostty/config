@@ -11,9 +11,9 @@ macos-titlebar-style = hidden
 macos-option-as-alt = true
 
 # --- LAYOUT ---
-# Remove the empty gap around Neovim so it fills the screen
+# Padding: x uses left,right and y uses top,bottom
 window-padding-x = 10
-window-padding-y = 10
+window-padding-y = 10,0
 
 # --- FONT ---
 # ensure you have a Nerd Font installed (e.g. JetBrainsMono, Hack, etc.)

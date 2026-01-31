@@ -29,6 +29,7 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 vim.opt.laststatus = 3 -- Global statusline (doesn't change with splits)
+vim.opt.cmdheight = 0 -- Hide command line when not in use (noice.nvim handles it)
 
 -- Behavior
 vim.opt.clipboard = "unnamedplus"
